@@ -24,7 +24,7 @@
       </label>
       <label class="input-style">
         How old are You?
-        <input class="age" type="number" name="Age" value="12" min="12">
+        <input class="age" type="number" name="Age" value="12" min="12" max="120">
       </label>
       <label class="input-style">
         Full date of birth:
@@ -48,18 +48,18 @@
     </fieldset>
     <fieldset class="blok-of-inputs" name="description">
       <legend>An interesting fact about you!</legend>
-      <div class="input-style">
+      <label class="input-style">
         Do you love cats?
         <input type="radio" name="loveCats" value="Yes">Yes
         <input type="radio" name="loveCats" value="No">No
-      </div>
+      </label>
       <label class="input-style">
         What is your favorite color?
         <input type="color" name="color">
       </label>
       <label class="input-style">
         What time do you go to bed?
-        <input type="datetime-local" name="timeForBed">
+        <input type="date" name="timeForBed">
       </label>
       <label class="input-style">
         What are your favorite brand of cars?
@@ -83,8 +83,8 @@
       <label class="input-style">
         Wood you recommend us?:
         <select name="recommend">
-          <option value="Yes">yes</option>
-          <option value="No">no</option>
+            <option value="Yes">yes</option>
+            <option value="No">no</option>
         </select>
       </label>
     </fieldset>
