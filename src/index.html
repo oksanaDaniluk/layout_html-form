@@ -48,11 +48,15 @@
     </fieldset>
     <fieldset class="blok-of-inputs" name="description">
       <legend>An interesting fact about you!</legend>
-      <label class="input-style">
+      <div class="input-style">
         Do you love cats?
-        <input type="radio" name="loveCats" value="Yes">Yes
-        <input type="radio" name="loveCats" value="No">No
-      </label>
+        <label for="loveCats">
+          <input type="radio" name="loveCats" value="Yes" id="loveCats">Yes
+        </label>
+        <label for="dontLoveCats">
+          <input type="radio" name="dontLoveCats" value="No" id="dontLoveCats">No
+        </label>
+      </div>
       <label class="input-style">
         What is your favorite color?
         <input type="color" name="color">
